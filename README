@@ -311,7 +311,7 @@ PREFERRED_PROVIDER_virtual/opencl-icd:imxgpu ?= "imx-gpu-viv"
 PREFERRED_PROVIDER_opencl-icd-loader:imxgpu  ?= "imx-gpu-viv"
 
 DISTRO_FEATURES:remove = "directfb x11"
-DISTRO_FEATURES:append = " wayland pam"
+DISTRO_FEATURES:append = " wayland pam opengl"
 MACHINE_HAS_VIVANTE_KERNEL_DRIVER_SUPPORT = "1"
 IMAGE_FEATURES:remove = "x11-base  x11-sato"
 IMAGE_FEATURES:append = " weston"
