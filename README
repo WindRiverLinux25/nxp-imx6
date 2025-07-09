@@ -190,13 +190,11 @@ Replace cable B with cable A.
 
 5.5 Audio
 ---------
-Play audio messages:
 
-For imx6ul, enable Output Mixer PCM like the following:
-amixer sset 'Right Output Mixer PCM' on
-amixer sset 'Left Output Mixer PCM' on
+1. Use 'aplay -l' to verify the correct card number
 
-        # aplay -Dhw:0,0 stereo1644s.wav
+2. Play audio messages
+    aplay -Dhw:<card id>,<device id> <wav file>
 
 5.6 Backlight
 --------------
