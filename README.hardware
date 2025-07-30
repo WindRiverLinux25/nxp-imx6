@@ -164,3 +164,52 @@ The following table shows the boot switch settings for eMMC boot
 
 Switch	D1	D2	D3	D4	D5	D6	D7	D8
 SW6	ON	ON	OFF	ON	OFF	ON	ON	OFF
+
+4.3.2 MCIMX6SX (SCH-27962 REV C, 700-27962 REV A2)
+--------------------------------------------------
+
+1. Booting from SD4 slot
+
+The following table shows the boot switch settings for SD4 boot
+
+Switch	D1	D2	D3	D4	D5	D6	D7	D8
+SW10	OFF	OFF	OFF	OFF	OFF	OFF	OFF	OFF
+SW11	OFF	OFF	ON	ON	ON	OFF	OFF	OFF
+SW12	OFF	ON	OFF	OFF	OFF	OFF	OFF	OFF
+
+2. Booting from SD3 slot
+
+The following table shows the boot switch settings for SD3 boot
+
+Switch	D1	D2	D3	D4	D5	D6	D7	D8
+SW10	OFF	OFF	OFF	OFF	OFF	OFF	OFF	OFF
+SW11	OFF	OFF	ON	ON	OFF	OFF	OFF	OFF
+SW12	OFF	ON	OFF	OFF	OFF	OFF	ON	OFF
+
+3. Booting from QSPI on board
+
+The following table shows the boot switch settings for QSPI boot
+
+Switch	D1	D2	D3	D4	D5	D6	D7	D8
+SW10	OFF	OFF	OFF	OFF	OFF	OFF	OFF	OFF
+SW11	OFF	OFF	OFF	OFF	OFF	OFF	OFF	OFF
+SW12	OFF	OFF	OFF	ON	ON	OFF	OFF	OFF
+
+4.3.3 MCIMX6UL (SCH-28616 700-28616 REV C)
+------------------------------------------
+
+1. Booting from TF card
+
+The following table shows the boot switch settings for TF boot
+
+Switch	D1	D2	D3	D4
+SW601	OFF	OFF	ON	OFF
+SW602	ON	OFF	-	-
+
+2. Booting from QSPI on board
+
+The following table shows the boot switch settings for QSPI boot
+
+Switch	D1	D2	D3	D4
+SW601	OFF	OFF	OFF	OFF
+SW602	ON	OFF	-	-
